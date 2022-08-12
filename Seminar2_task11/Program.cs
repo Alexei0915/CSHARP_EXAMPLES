@@ -1,4 +1,5 @@
-﻿int a = new Random().Next(100, 999);
+﻿//Напишите программу, которая выводит случайное трёхзначное число и удаляет вторую цифру этого числа
+int a = new Random().Next(100, 999);
 Console.WriteLine(a);
 
 int FirstDigit = a / 100;
