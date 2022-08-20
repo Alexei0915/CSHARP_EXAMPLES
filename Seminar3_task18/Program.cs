@@ -30,7 +30,7 @@ int count = 0;
 while(count<5){
 try
     {
-        int x = int.Parse(Console.ReadLine());
+        int x = int.Parse ( Console.ReadLine() );
         string [] q1={"x > 0 и y > 0", "x < 0 и y > 0", "x < 0 и y < 0", "x > 0 и y < 0 "};
         Console.WriteLine("диапазон значений для четверти"+ x +"равен:"+ q1[x - 1]);
         break;
