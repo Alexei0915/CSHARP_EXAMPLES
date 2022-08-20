@@ -19,3 +19,18 @@ int numberN = Convert.ToInt32(Console.ReadLine());
 
 int sumNumber = SumNumber(numberN);
 Console.WriteLine("Сумма цифр в числе: " + sumNumber);
+
+// Либо 
+// Console.WriteLine("Введите число N:");
+
+// int a = int.Parse(Console.ReadLine());
+// int result = 0;
+// int b = 0;
+// while (a > 0 )
+// {
+//     b= a % 10;
+//     result=result + b;
+//     a= a / 10;
+// }
+
+// Console.WriteLine(result);
