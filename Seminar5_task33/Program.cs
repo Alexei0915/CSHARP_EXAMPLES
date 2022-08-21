@@ -23,7 +23,7 @@ PrintArray(array);
 Console.WriteLine("Введите число");
 int a =int.Parse(Console.ReadLine());
 
-int var = 0;
+int var = 0;// переменная для поиска числа 
 for (int i = 0; i < array.Length; i++)
 {
     if (a == array[i])
