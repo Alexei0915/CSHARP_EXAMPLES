@@ -6,7 +6,7 @@ int len =array.Length;
 int index = 0;
 while(index < array.Length)
 {
-    array[index] = new Random().Next(-9, 9);
+    array[index] = new Random().Next(-10, 10);
     index++;
 }
 for (int i = 0; i < len; i++)
