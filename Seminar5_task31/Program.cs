@@ -1,4 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Задайте массив из 12 элементов,заполненный случайными числами из промежутка -9,9.
+//Найдите сумму отрицательных и положительных элементов массива.
+
 int[] array = new int[12];
 int sumPositive = 0;
 int sumNegative = 0;
