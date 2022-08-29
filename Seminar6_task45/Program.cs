@@ -1,27 +1,27 @@
 ﻿// 
-Console.Write ("Введите длину массива: ");
+Console.Write("Введите длину массива: ");
 int length = int.Parse(Console.ReadLine());
-int [] array = new int [length];
+int[] array = new int[length];
 
-for (int i = 0;i < array.Length;i++)
+for (int i = 0; i < array.Length; i++)
 {
-    array [i] = new Random().Next(100, 1000);
+    array[i] = new Random().Next(100, 1000);
 }
 
-void PrintArray(int[]array)
+void PrintArray(int[] array)
 {
-    for (int i = 0; i < array.Length;i++)
+    for (int i = 0; i < array.Length; i++)
     {
-        Console.Write(array[i]+ " ");
+        Console.Write(array[i] + " ");
     }
 }
 
-int [] ArrayCopy (int[] array)
+int[] ArrayCopy(int[] array)
 {
-    int[]ResArr = new int[length];
-    for(int i = 0; i< length;i++)
+    int[] ResArr = new int[length];
+    for (int i = 0; i < length; i++)
     {
-        ResArr[i] = array [i];
+        ResArr[i] = array[i];
     }
     return ResArr;
 }
