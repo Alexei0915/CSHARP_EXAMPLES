@@ -25,12 +25,13 @@ void PrintArray(int[,] matr)
         Console.Write ($"[");
         for (int j = 0; j < matr.GetLength(1); j++)
         {
-            Console.Write ($"{matr[i, j]} , ");
+            Console.Write ($"{matr[i, j]+ " "}");
         }
         Console.WriteLine($"{matr [i, matr.GetLength(1)- 1]}]");
         Console.WriteLine();
     }
 }
+
 
 int temp = 0;
 
