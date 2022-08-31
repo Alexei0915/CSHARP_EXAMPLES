@@ -13,7 +13,7 @@ void FillPrintArray(int[,] arr)
     {
         for (int j = 0; j < arr.GetLength(1); j++)
         {
-            arr[i, j] = new Random().Next(-1, 10);
+            arr[i, j] = new Random().Next(0, 10);
             if (arr[i, j] < 0) Console.Write(arr[i, j] + " ");
             else Console.Write(" " + arr[i, j] + " ");
         }
