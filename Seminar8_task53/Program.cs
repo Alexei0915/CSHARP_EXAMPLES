@@ -73,8 +73,8 @@ void Print2Array(int[,] arr)
         Console.WriteLine();
         for (int j = 0; j < arr.GetLength(1); j++)
         {
-            if (arr[i, j] < 0) Console.Write(array[i, j] + " ");
-            else Console.Write(" " + array[i, j] + " ");
+            if (arr[i, j] < 0) Console.Write(arr[i, j] + " ");
+            else Console.Write(" " + arr[i, j] + " ");
         }
         Console.WriteLine();
         Console.WriteLine();
