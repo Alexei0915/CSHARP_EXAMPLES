@@ -23,28 +23,28 @@ void PrintArray(int[,] matr)
 {
     for (int i = 0; i < matr.GetLength(0); i++)
     {
-        Console.WriteLine ();
+        Console.WriteLine();
         for (int j = 0; j < matr.GetLength(1); j++)
         {
-             Console.Write ($"{matr[i, j]+ " "}");
+            Console.Write($"{matr[i, j] + " "}");
         }
-        Console.WriteLine($"{matr [i, matr.GetLength(1)- 1]}");
+        Console.WriteLine($"{matr[i, matr.GetLength(1) - 1]}");
         Console.WriteLine();
     }
 }
 
 PrintArray(array);
 
-void swap(int[,]arr)
+void swap(int[,] arr)
 {
- for (int j = 0; j < arr.GetLength(1)- 1; j++)
- {
-    int temp = 0;
-    temp = arr [0, j];
-    arr [0, j]= arr[arr.GetLength(0)- 1,j];
-    arr [arr.GetLength(0)- 1, j]= temp;
+    for (int j = 0; j < arr.GetLength(1) - 1; j++)
+    {
+        int temp = 0;
+        temp = arr[0, j];
+        arr[0, j] = arr[arr.GetLength(0) - 1, j];
+        arr[arr.GetLength(0) - 1, j] = temp;
 
- }
+    }
 }
 void Print2Array(int[,] arr)
 {
@@ -53,8 +53,8 @@ void Print2Array(int[,] arr)
         Console.WriteLine();
         for (int j = 0; j < arr.GetLength(1); j++)
         {
-            if (arr [i, j] < 0 ) Console.Write(array[i, j]+ " ");
-            else Console.Write(" "+ array[i, j]+" ");
+            if (arr[i, j] < 0) Console.Write(array[i, j] + " ");
+            else Console.Write(" " + array[i, j] + " ");
         }
         Console.WriteLine();
         Console.WriteLine();
