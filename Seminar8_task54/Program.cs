@@ -1,10 +1,6 @@
 ﻿//Задача 54: Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.
-// int m = InputNumbers("Введите m: ");
-// int n = InputNumbers("Введите n: ");
-// int range = InputNumbers("Введите диапазон: от 1 до ");
-
-int m = Convert.ToInt32(new Random().Next(3, 5));// randomly select how many rows wil be in array (случайным образом выберите, сколько строк будет в массиве)
-int n = m + Convert.ToInt32(new Random().Next(3, 5));// randomly select how many colums wil be in array,wich is larger that m (случайным образом выберите, сколько столбцов будет в массиве,который больше m)
+int m = Convert.ToInt32(new Random().Next(3, 5));
+int n = m + Convert.ToInt32(new Random().Next(3, 5));
 Console.WriteLine();
 
 int[,] array = new int[m, n];
