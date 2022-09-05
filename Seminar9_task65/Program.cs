@@ -3,7 +3,7 @@ Console.WriteLine("Начало диапозона");
 int m = int.Parse(Console.ReadLine());
 Console.WriteLine("Конец диапозона");
 int n = int.Parse(Console.ReadLine());
-void RecursionNaumbers(int i)
+void Numbers(int i)
 {
    
     if (i == n)
@@ -21,4 +21,4 @@ void RecursionNaumbers(int i)
 
 int j = m;
 
-RecursionNaumbers(j);
+Numbers(j);

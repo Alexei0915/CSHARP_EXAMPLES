@@ -2,7 +2,7 @@
 
 Console.WriteLine("text");
 int n = int.Parse(Console.ReadLine());
-void RecursionNaumbers(int i)
+void RecursionNumbers(int i)
 {
     if (i == n)
     {
@@ -13,10 +13,10 @@ void RecursionNaumbers(int i)
        
         Console.Write($" {i}");
         i++;
-        RecursionNaumbers(i);
+        RecursionNumbers(i);
     }
 }
 
 int j = 1;
 
-RecursionNaumbers(j);
+RecursionNumbers(j);
