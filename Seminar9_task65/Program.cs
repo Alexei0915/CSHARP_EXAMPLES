@@ -15,7 +15,7 @@ void Numbers(int i)
        
         Console.Write($" {i}");
         i++;
-        RecursionNaumbers(i);
+        Numbers(i);
     }
 }
 
